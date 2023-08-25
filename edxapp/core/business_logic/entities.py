@@ -1,17 +1,6 @@
 from dataclasses import dataclass
 from typing import Any
 
-"""
-LogEntry.objects.log_action(
-                user_id=user_id,
-                content_type_id=None,
-                object_id=None,
-                object_repr='Greeting',
-                action_flag=2,  # Change this according to log action codes
-                change_message=f'Greeting: {greeting_text}'
-            )
-"""
-
 
 @dataclass
 class LogsEntity:
